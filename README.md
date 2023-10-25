@@ -1,6 +1,6 @@
 # rbs-shell
 
-echo -e "\e[34m\e[0m"
+echo -e "\e[34m \e[0m"
 
 
 &>>/tmp/roboshop.log
