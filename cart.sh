@@ -12,7 +12,7 @@ rm -rf /app &>>/tmp/roboshop.log
 mkdir /app
 
 echo -e "\e[34m Dowmload Application Content\e[0m"
-curl -o /tmp/user.zip https://roboshop-artifacts.s3.amazonaws.com/user.zip &>>/tmp/roboshop.log
+curl -o /tmp/cart.zip https://roboshop-artifacts.s3.amazonaws.com/cart.zip &>>/tmp/roboshop.log
 cd /app 
 
 echo -e "\e[34m Extract Application Content \e[0m"
